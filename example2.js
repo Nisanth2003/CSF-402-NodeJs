@@ -1,5 +1,5 @@
 //program basically creates a server 
-//when the server is in our own machine we will search in localhost:port_number
+//when the server is in our own machine we will search in browser as "localhost:port_number"
 
 var http = require('http');
 http.createServer(function(req,res){  //req=request by client,res=response by server,createServer method have 2 arguments
@@ -17,5 +17,5 @@ http.createServer(function(req,res){  //req=request by client,res=response by se
 // function will get executed the no of times client makes a request to it
 
 
-//const will not be changing through out the program
+//const -will not be changing through out the program
 //var may change
